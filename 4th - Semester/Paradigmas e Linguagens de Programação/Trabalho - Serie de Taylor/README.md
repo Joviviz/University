@@ -1,3 +1,5 @@
+# Trabalho - Série de Taylor
+
 Defina o seno de x peça Série de Taylor
 
 ```py
