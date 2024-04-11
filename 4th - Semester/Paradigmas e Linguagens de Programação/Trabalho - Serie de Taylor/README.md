@@ -1,5 +1,9 @@
 # Trabalho - Série de Taylor
 
+>[!WARNING]
+>WORK IN PROGRESS
+
+
 Defina o seno de x peça Série de Taylor
 
 ```py
