@@ -6,6 +6,8 @@
 ## Características
 - Tem declarações de tipo
 - Inferência de tipo (se x e y são int, então x + y = int)
+- Fortemente tipada
+
 
 # Uso da linguagem em código
 
