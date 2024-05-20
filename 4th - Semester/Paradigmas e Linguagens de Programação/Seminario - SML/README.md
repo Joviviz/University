@@ -44,6 +44,14 @@ fun fou n =
 val execute = fou(4);
 ```
 
+OU
+```sml
+fun fou 0 = 1
+  | fou n = n * fou (n - 1);
+
+val fou = fou(4);
+```
+
 # Magneto
 
 # Ref Bibliográficas
