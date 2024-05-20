@@ -7,6 +7,8 @@
 - Tem declarações de tipo
 - Inferência de tipo (se x e y são int, então x + y = int)
 - Fortemente tipada
+  - O tipo de todo nome e expressão é determinado na hora de compilação
+  - Diferente de Python que é dinâmico
 
 
 # Uso da linguagem em código
