@@ -23,24 +23,19 @@ val b = 3;
 val c = a + b;
 ```
 
-## Função print
-
-```sml
-val _ = print "baldurs gate 3";
-```
-
 ## Operações básicas de lista
 - null(x) - retorna "true" se x for uma lista vazia
 - hd(x) - retorna a "cabeça" de x
 - tl(x) - reorna a "calda" de x
 - a::x  - controi uma lista com a cabeça "a" e calda "x"
 
-hd([1,2,3] = 1)
-tl()
+### Exemplos
+
+- hd([1,2,3] = 1)
+- tl([1,2,3]) = [2,3]
+- 1::[2,3] = [1,2,3]
 
 ## Soma de valores em uma lista
-
-
 
 x é o começo da lista e xs o final (x::xs)
 
@@ -52,6 +47,18 @@ fun somaLista [] = 0
 
 val execute = somaLista(lis);
 ```
+## Funções em ML
+
+- Definidas usando a sintaxe:
+  - fun <nome> <parametros> = <corpo>
+
+- Exemplo =
+```sml
+fun teste n = n+1;
+(**)
+
+
+
 
 ## Fatorial
 ```sml
@@ -69,6 +76,12 @@ fun fou 0 = 1
   | fou n = n * fou (n - 1);
 
 val fou = fou(4);
+```
+
+## Função print
+
+```sml
+val _ = print "baldurs gate 3";
 ```
 
 # Magneto
