@@ -1,4 +1,6 @@
-# Standard Meta Language
+# Standard Meta Language (SML)
+
+É uma linguagem de programação conhecida por suas fortes capacidades em programação funcional. Desenvolvida para apoiar a implementação de sistemas de inferência (afirmar a verdade de uma proposição na qual há uma ligação entre essa e outras proposições conehcidas como verdadeiras)
 
 # Uso da linguagem em codigo
 
