@@ -89,6 +89,15 @@ append(x,z);
 - Funcoes recursivas sao compostas de um caso base e um caso recursivo
 append ([1,2],[3,4,5])
 
+- Exemplo da ordem de recursividade do codigo acima
+
+1. append([1,2],[3,4,5])
+
+2. 1 :: append([2],[3,4,5])
+3. 1 :: 2 :: append([],[3,4,5])
+4. 1 :: 2 :: [3,4,5]
+5. 1 :: [2,3,4,5] = [1,2,3,4,5]
+
 
 ## Soma de valores em uma lista
 
