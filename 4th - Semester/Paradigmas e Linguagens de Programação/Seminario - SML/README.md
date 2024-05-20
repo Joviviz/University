@@ -39,7 +39,7 @@ val c = a + b;
 ## Funções em ML
 
 - Definidas usando a sintaxe:
-  - fun <nome> <parametros> = <corpo>
+  - fun [nome] [parametros] = [corpo]
 
 - Exemplo:
 ```sml
