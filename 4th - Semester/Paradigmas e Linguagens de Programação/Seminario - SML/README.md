@@ -4,7 +4,8 @@
 É uma linguagem de programação conhecida por suas fortes capacidades em programação funcional. Desenvolvida para apoiar a implementação de sistemas de inferência (afirmar a verdade de uma proposição na qual há uma ligação entre essa e outras proposições conehcidas como verdadeiras)
 
 ## Características
-
+- Tem declarações de tipo
+- Inferência de tipo (se x e y são int, então x + y = int)
 
 # Uso da linguagem em código
 
@@ -23,7 +24,19 @@ val c = a + b;
 ```sml
 val _ = print "baldurs gate 3";
 ```
+
+## Operações básicas de lista
+- null(x) - retorna "true" se x for uma lista vazia
+- hd(x) - retorna a "cabeça" de x
+- tl(x) - reorna a "calda" de x
+- a::x  - controi uma lista com a cabeça "a" e calda "x"
+
+hd([1,2,3] = 1)
+tl()
+
 ## Soma de valores em uma lista
+
+
 
 x é o começo da lista e xs o final (x::xs)
 
