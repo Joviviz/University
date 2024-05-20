@@ -35,7 +35,7 @@ val execute = somaLista(lis);
 ```
 # Magneto
 
-# Ref Bibliografica
+# Ref Bibliográficas
 - https://www.youtube.com/watch?v=2sqjUWGGzTo
 - 
 
