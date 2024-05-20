@@ -33,6 +33,17 @@ fun somaLista [] = 0
 
 val execute = somaLista(lis);
 ```
+
+## Fatorial
+```sml
+fun fou n = 
+  if n = 0
+  then 1
+  else n * fou (n-1);
+
+val execute = fou(4);
+```
+
 # Magneto
 
 # Ref Bibliográficas
