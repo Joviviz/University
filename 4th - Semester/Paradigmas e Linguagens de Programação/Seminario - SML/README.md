@@ -35,6 +35,34 @@ val c = a + b;
 - tl([1,2,3]) = [2,3]
 - 1::[2,3] = [1,2,3]
 
+
+## Funções em ML
+
+- Definidas usando a sintaxe:
+  - fun <nome> <parametros> = <corpo>
+
+- Exemplo:
+```sml
+fun teste n = n+1;
+(*Chamar a funcao = teste(x) ou teste x *)
+teste(3)
+```
+
+## Funcoes de listas lineares
+- A maioria das funcoes de lista operam em cada item dentro de uma lista: 
+  fun f(x) = if lista x esta vazia then ...
+                else something involvendo hd(x), tl(x)
+
+- Exemplo:
+```sml
+fun tamanhoLista(x) = 
+  if null(x) then 0
+  else 1 + tamanhoLista(tl(x));
+
+tamanhoLista([0,1,2]);
+```
+
+
 ## Soma de valores em uma lista
 
 x é o começo da lista e xs o final (x::xs)
@@ -47,19 +75,6 @@ fun somaLista [] = 0
 
 val execute = somaLista(lis);
 ```
-## Funções em ML
-
-- Definidas usando a sintaxe:
-  - fun <nome> <parametros> = <corpo>
-
-- Exemplo =
-```sml
-fun teste n = n+1;
-(*Chamar a funcao = teste(x) ou teste x *)
-teste(3)
-```
-
-
 
 ## Fatorial
 ```sml
