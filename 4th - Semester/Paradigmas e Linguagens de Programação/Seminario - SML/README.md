@@ -1,12 +1,16 @@
 # Standard Meta Language (SML)
 
+## O que é ?
 É uma linguagem de programação conhecida por suas fortes capacidades em programação funcional. Desenvolvida para apoiar a implementação de sistemas de inferência (afirmar a verdade de uma proposição na qual há uma ligação entre essa e outras proposições conehcidas como verdadeiras)
 
-# Uso da linguagem em codigo
+## Características
 
-## Variaveis
 
-variaveis a,b e c
+# Uso da linguagem em código
+
+## Variáveis
+
+variáveis a,b e c
 
 ```sml
 val a = 2;
@@ -14,7 +18,7 @@ val b = 3;
 val c = a + b;
 ```
 
-## Funcao print
+## Função print
 
 ```sml
 val _ = print "baldurs gate 3";
@@ -32,6 +36,10 @@ val execute = somaLista(lis);
 # Magneto
 
 # Ref Bibliografica
+- https://www.youtube.com/watch?v=2sqjUWGGzTo
+- 
+
+
 - https://www.cs.princeton.edu/courses/archive/fall08/cos441/notes/lect-SMLNJ.pdf
 - https://www.geeksforgeeks.org/what-is-standard-meta-language-sml/
 - 
