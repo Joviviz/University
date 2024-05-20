@@ -25,6 +25,8 @@ val _ = print "baldurs gate 3";
 ```
 ## Soma de valores em uma lista
 
+x é o começo da lista e xs o final (x::xs)
+
 ```sml
 val lis = [1,2,3,4];
 
