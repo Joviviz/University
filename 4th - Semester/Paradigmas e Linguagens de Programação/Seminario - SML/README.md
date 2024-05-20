@@ -1,3 +1,32 @@
+# Standard Meta Language
+
+# Uso da linguagem em codigo
+
+## Variaveis
+
+variaveis a,b e c
+
+```sml
+val a = 2;
+val b = 3;
+val c = a + b;
+```
+
+## Funcao print
+
+```sml
+val _ = print "baldurs gate 3";
+```
+## Soma de valores em uma lista
+
+```sml
+val lis = [1,2,3,4];
+
+fun somaLista [] = 0
+  | somaLista (x::xs) = x + somaLista xs;
+
+val execute = somaLista(lis);
+```
 # Magneto
 
 # Ref Bibliografica
