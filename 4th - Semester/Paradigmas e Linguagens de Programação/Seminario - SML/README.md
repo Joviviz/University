@@ -77,12 +77,17 @@ val xz = x@z;
 
 - Criando funcao de append
 ```sml
+val x : int list = [1,2];
+val z = [3,4,5];
+
 fun append(x,z) = 
   if null(x) then z
   else hd(x) :: append(tl(x),z);
+
+append(x,z);
 ```
 - Funcoes recursivas sao compostas de um caso base e um caso recursivo
-
+append ([1,2],[3,4,5])
 
 
 ## Soma de valores em uma lista
