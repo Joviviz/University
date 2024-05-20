@@ -31,7 +31,7 @@ val c = a + b;
 
 ### Exemplos
 
-- hd([1,2,3] = 1)
+- hd([1,2,3]) = 1
 - tl([1,2,3]) = [2,3]
 - 1::[2,3] = [1,2,3]
 
@@ -55,8 +55,9 @@ val execute = somaLista(lis);
 - Exemplo =
 ```sml
 fun teste n = n+1;
-(**)
-
+(*Chamar a funcao = teste(x) ou teste x *)
+teste(3)
+```
 
 
 
