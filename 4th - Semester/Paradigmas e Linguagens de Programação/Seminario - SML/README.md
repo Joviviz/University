@@ -50,8 +50,9 @@ teste(3)
 
 ## Funcoes de listas lineares
 - A maioria das funcoes de lista operam em cada item dentro de uma lista: 
-  fun f(x) = if lista x esta vazia then ...
-                else something involvendo hd(x), tl(x)
+  fun f(x) = 
+  if lista x esta vazia then ...
+  else something involvendo hd(x), tl(x)
 
 - Exemplo:
 ```sml
@@ -76,10 +77,12 @@ val xz = x@z;
 
 - Criando funcao de append
 ```sml
-fun append(x,y) = 
+fun append(x,z) = 
   if null(x) then z
-  else hd(x) :: append(tl(x),z)
+  else hd(x) :: append(tl(x),z);
 ```
+- Funcoes recursivas sao compostas de um caso base e um caso recursivo
+
 
 
 ## Soma de valores em uma lista
