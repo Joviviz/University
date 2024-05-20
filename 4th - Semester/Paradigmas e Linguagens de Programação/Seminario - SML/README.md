@@ -65,8 +65,8 @@ tamanhoLista([0,1,2]);
 ## Operacoes de lista
 
 - append(x,z)
-    - append ([1,2],[3,4,5]) = [1,2]@[3,4,5]
-    
+    - append ([1,2],[3,4,5]) = [1,2] @ [3,4,5]
+
 ```sml
 val x : int list = [1,2];
 val z = [3,4,5];
@@ -74,6 +74,12 @@ val z = [3,4,5];
 val xz = x@z;
 ```
 
+- Criando funcao de append
+```sml
+fun append(x,y) = 
+  if null(x) then z
+  else hd(x) :: append(tl(x),z)
+```
 
 
 ## Soma de valores em uma lista
