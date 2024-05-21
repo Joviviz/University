@@ -233,6 +233,10 @@ head([]);
   - remover(1,[1,1,2,3,1,1]) = [2,3,1,1]
 
 > val remover = fn: ∀ ''a . ''a * ''a list → ''a list;
+- ∀ (Para todo)
+- ''a (um tipo)
+- ''a list (uma lista de tipos)
+- ''a * ''a list (um par(tupla) contendo um valor de tipo ''a e uma lista de valores de tipo ''a)
 
 ```sml
 fun remover(a,[]) = []
