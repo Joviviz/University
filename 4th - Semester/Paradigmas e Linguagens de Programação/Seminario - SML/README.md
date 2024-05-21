@@ -213,10 +213,10 @@ append(x,z);
 
 - Podemos demonstrar funcoes assim : 
 
-fun fpadrao1 = expressao1
-  | fpadrao2 = expressao2
-  ...
-  | fpadraon = expressaon;
+fun (padrao)1 = (expr)1 <br>
+  | (padrao)2 = (expr)2 <br>
+  ... <br>
+  | (padrao)n = (expr);
 
 
 ## Soma de valores em uma lista
