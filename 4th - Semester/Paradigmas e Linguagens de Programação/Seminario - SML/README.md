@@ -179,7 +179,7 @@ tamanhoLista([0,1,2]);
 ```
 
 - Reescrevendo a funcao append:
-- Funcao sem padrao
+- Funcao original
 ```sml
 val x = [1,2];
 val z = [3,4,5];
@@ -191,14 +191,13 @@ fun append(x,z) =
 append(x,z);
 ```
 
-- Funcao com padrao
+- Funcao com case
 ```
 val x = [1,2];
 val z = [3,4,5];
 
 fun append([],z) = z
-  if null(x) then z
-  else hd(x) :: append(tl(x),z);
+  | append(a::y,z) = a::append(y,z);
 
 append(x,z);
 ```
