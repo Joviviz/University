@@ -192,7 +192,7 @@ append(x,z);
 ```
 
 - Funcao com case
-```
+```sml
 val x = [1,2];
 val z = [3,4,5];
 
