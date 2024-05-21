@@ -158,8 +158,26 @@ reverse(x);
   - Caso Base -> para a lista vazia
   - Caso Recursivo -> para a lista não vazia
 
-- 
+- tamanho([]) == 0
+- tamanho(a::y) == 1 + tamanho(y)
 
+- relembrando a funcao do comeco
+```sml
+fun tamanhoLista(x) = 
+  if null(x) then 0
+  else 1 + tamanhoLista(tl(x));
+
+tamanhoLista([0,1,2]);
+```
+
+- Podemos reescrever assim: 
+```sml
+
+```
+fun tamanhoLista([]) = 0
+  | tamanhoLista(a::y) = 1 + tamanhoLista(y);
+
+tamanhoLista([0,1,2]);
 ## Soma de valores em uma lista
 
 x é o começo da lista e xs o final (x::xs)
