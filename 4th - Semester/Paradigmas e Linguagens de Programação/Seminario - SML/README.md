@@ -67,7 +67,7 @@ tamanhoLista([0,1,2]);
 
 - append(x,z)
     - adicionar uma lista ou um valor  a uma lista
-    - append ([1,2],[3,4,5]) = [1,2] @ [3,4,5]
+    - append ([1,2],[3,4,5]) = [1,2] @ [3,4,5] -> Built-in!
 
 ```sml
 val x : int list = [1,2];
@@ -103,7 +103,7 @@ append ([1,2],[3,4,5])
   - reverter x e acrescentar em z
   - reverse([2,3,4],[1]) = [4,3,2,1]
 - No ML a funcao se chama rev
-  - rev(x) = revese(x,[])
+  - rev(x) = revese(x,[]) -> Built-in!
 
 ```sml
 rev([1,2,3,4]);
