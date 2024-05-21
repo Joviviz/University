@@ -124,7 +124,34 @@ reverse(x,z);
 1. reverse([2,3,4][1])
 2. reverse([3,4], 2::[1]) -> reverse([3,4], [2,1])
 3. reverse([4], 3::[2,1]) -> reverse([4], [3,2,1])
+4. reversse([], 4::[3,2,1]) -> reverse([],[4,3,2,1])
+5. [4,3,2,1]
 
+- Tempo = O(n) onde n é o tamanho de x
+
+- Implementando reverse usando append
+
+```sml
+val x = [1,2,3,4];
+
+fun reverse(x) = 
+  if null(x) then nil
+  else reverse(tl(x)) @ [hd(x)];
+
+reverse(x);
+```
+
+1. reverse [1,2,3,4]
+2. reverse [2,3,4] @ [1]
+3. reverse [3,4] @ [2] @ [1]
+4. reverse [4] @ [3] @ [2] @ [1]
+5. reverse [] @ [4] @ [3] @ [2] @ [1]
+6. [] @ [4] @ [3] @ [2] @ [1]
+7. [4] -> [4,3] -> [4,3,2] -> [4,3,2,1]
+
+- Tempo = O(n^2) onde n é o tamanho de x
+  - append = O(n)
+  - reverse -> executado n vezes
 
 ## Soma de valores em uma lista
 
