@@ -219,6 +219,26 @@ fun (padrao)1 = (expr)1 <br>
   | (padrao)n = (expr);
 
 
+- Garantir que todos os casos sao esclarecidos
+
+```sml
+fun head(a::y) = a;
+
+head([7]);
+head([]);
+```
+
+- Exemplo de Padrao
+  - Funcao remover deve remover todos os elementos iniciais que comecam com o numero estabelecido no primeiro argumento
+  - remover(1,[1,1,2,3,1,1]) = [2,3,1,1]
+
+```sml
+fun remover(a,[]) = []
+  | remover(a,b::y) =
+  if a=b then remover(a,y) (*ao chamar "remover" com (a,y) denovo estaremos removendo b*)
+  else b::y;
+```
+
 ## Soma de valores em uma lista
 
 x é o começo da lista e xs o final (x::xs)
