@@ -105,6 +105,26 @@ append ([1,2],[3,4,5])
 - No ML a funcao se chama rev
   - rev(x) = revese(x,[])
 
+```sml
+rev([1,2,3,4]);
+```
+
+- Criando a funcao reverse
+```sml
+val x = [2,3,4];
+val z = [1];
+
+fun reverse(x,z) = 
+  if null(x) then z
+  else reverse(tl(x), hd(x)::z);
+
+reverse(x,z);
+```
+
+1. reverse([2,3,4][1])
+2. reverse([3,4], 2::[1]) -> reverse([3,4], [2,1])
+3. reverse([4], 3::[2,1]) -> reverse([4], [3,2,1])
+
 
 ## Soma de valores em uma lista
 
