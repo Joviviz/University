@@ -246,18 +246,28 @@ remover("x", ["x","x","y","z","x"]);
 
 - Analizando o terminal : 
 -  val remover = fn: ∀ ''a . ''a * ''a list → ''a list;
-  - ∀ (Para todo)
-  - ''a (um tipo)
-  - ''a list (uma lista de tipos)
-  - ''a * ''a list (um par(tupla) contendo um valor de tipo ''a e uma lista de valores de tipo ''a)
-  - → ''a list (retorna uma lista)
+- ∀ (Para todo)
+- ''a (um tipo)
+- ''a list (uma lista de tipos)
+- ''a * ''a list (um par(tupla) contendo um valor de tipo ''a e uma lista de valores de tipo ''a)
+- → ''a list (retorna uma lista)
 
 1. remover(1,[1,1,2,3,1,1])
 2. 1 = 1 -> remover(1,[1,2,3,1,1])
 3. 1 = 1 -> remover(1,[2,3,1,1])
 4. [2,3,1,1]
 
+## Funcao Map
+- Built in!
+- Aplicar a funcao f para todos os itens dentro de uma lista
 
+```sml
+fun map f[] = []
+  | map f(a::y) = (f a) :: (map f y);
+```
+
+- Exemplos: 
+  - 
 
 ## Soma de valores em uma lista
 
