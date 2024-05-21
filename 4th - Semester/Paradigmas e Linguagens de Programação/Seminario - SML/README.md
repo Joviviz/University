@@ -66,6 +66,7 @@ tamanhoLista([0,1,2]);
 ## Operacoes de lista
 
 - append(x,z)
+    - adicionar uma lista ou um valor  a uma lista
     - append ([1,2],[3,4,5]) = [1,2] @ [3,4,5]
 
 ```sml
@@ -97,6 +98,12 @@ append ([1,2],[3,4,5])
 3. 1 :: 2 :: append([],[3,4,5])
 4. 1 :: 2 :: [3,4,5]
 5. 1 :: [2,3,4,5] = [1,2,3,4,5]
+
+- Reverse(x,y)
+  - reverter x e acrescentar em z
+  - reverse([2,3,4],[1]) = [4,3,2,1]
+- No ML a funcao se chama rev
+  - rev(x) = revese(x,[])
 
 
 ## Soma de valores em uma lista
