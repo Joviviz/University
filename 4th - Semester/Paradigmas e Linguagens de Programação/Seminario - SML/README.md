@@ -239,6 +239,13 @@ fun remover(a,[]) = []
   else b::y;
 ```
 
+1. remover(1,[1,1,2,3,1,1])
+2. 1 = 1 -> remover(1,[1,2,3,1,1])
+3. 1 = 1 -> remover(1,[2,3,1,1])
+4. [2,3,1,1]
+
+
+
 ## Soma de valores em uma lista
 
 x é o começo da lista e xs o final (x::xs)
