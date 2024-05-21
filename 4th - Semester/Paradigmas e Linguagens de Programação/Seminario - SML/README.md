@@ -237,6 +237,7 @@ head([]);
 - ''a (um tipo)
 - ''a list (uma lista de tipos)
 - ''a * ''a list (um par(tupla) contendo um valor de tipo ''a e uma lista de valores de tipo ''a)
+- → ''a list (retorna uma lista)
 
 ```sml
 fun remover(a,[]) = []
