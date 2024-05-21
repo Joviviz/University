@@ -232,12 +232,6 @@ head([]);
   - Funcao remover deve remover todos os elementos iniciais que comecam com o numero estabelecido no primeiro argumento
   - remover(1,[1,1,2,3,1,1]) = [2,3,1,1]
 
-> val remover = fn: ∀ ''a . ''a * ''a list → ''a list;
-- ∀ (Para todo)
-- ''a (um tipo)
-- ''a list (uma lista de tipos)
-- ''a * ''a list (um par(tupla) contendo um valor de tipo ''a e uma lista de valores de tipo ''a)
-- → ''a list (retorna uma lista)
 
 ```sml
 fun remover(a,[]) = []
@@ -245,6 +239,13 @@ fun remover(a,[]) = []
   if a=b then remover(a,y) (*ao chamar "remover" com (a,y) denovo estaremos removendo b*)
   else b::y;
 ```
+- Analizando o terminal : 
+-  val remover = fn: ∀ ''a . ''a * ''a list → ''a list;
+  - ∀ (Para todo)
+  - ''a (um tipo)
+  - ''a list (uma lista de tipos)
+  - ''a * ''a list (um par(tupla) contendo um valor de tipo ''a e uma lista de valores de tipo ''a)
+  - → ''a list (retorna uma lista)
 
 1. remover(1,[1,1,2,3,1,1])
 2. 1 = 1 -> remover(1,[1,2,3,1,1])
