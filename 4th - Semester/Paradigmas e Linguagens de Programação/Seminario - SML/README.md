@@ -211,6 +211,14 @@ append(x,z);
   - fun(x,_) = x (*como o segundo argumento nao e usado podemos atribuir qualquer nome a ele*)
 
 
+- Podemos demonstrar funcoes assim : 
+
+fun fpadrao1 = expressao1
+  | fpadrao2 = expressao2
+  ...
+  | fpadraon = expressaon;
+
+
 ## Soma de valores em uma lista
 
 x é o começo da lista e xs o final (x::xs)
