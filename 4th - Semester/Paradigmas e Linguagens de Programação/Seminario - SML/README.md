@@ -267,7 +267,13 @@ fun map f[] = []
 ```
 
 - Exemplos: 
-  - 
+```sml
+fun maisUm n = n+1;
+fun quadrado x = x * x;
+
+map maisUm [1,2,3];
+map quadrado [1,2,3];
+```
 
 ## Soma de valores em uma lista
 
