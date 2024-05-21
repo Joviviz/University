@@ -153,6 +153,13 @@ reverse(x);
   - append = O(n)
   - reverse -> executado n vezes
 
+## Casos e padroes
+- Funcoes de lista sao compostas por 2 casos:
+  - Caso Base -> para a lista vazia
+  - Caso Recursivo -> para a lista não vazia
+
+- 
+
 ## Soma de valores em uma lista
 
 x é o começo da lista e xs o final (x::xs)
