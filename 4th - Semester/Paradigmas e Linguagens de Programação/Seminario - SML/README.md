@@ -153,7 +153,7 @@ reverse(x);
   - append = O(n)
   - reverse -> executado n vezes
 
-## Casos e padroes
+## Casos 
 - Funcoes de lista sao compostas por 2 casos:
   - Caso Base -> para a lista vazia
   - Caso Recursivo -> para a lista não vazia
@@ -202,7 +202,12 @@ fun append([],z) = z
 append(x,z);
 ```
 
-
+## Padroes
+- Funcoes podem ter mais de un argumento declarado
+- fun [nome] [padrao] = [corpo]
+  - [padrao] e uma expressao que consiste em variaveis, constantes, pares e contructors
+  - exemplo: [padrao]: [], a::y, (x,y)
+  - fun(x,y) = x (*chama um par de funcao e retorna a primeira parte do par*)
 
 
 ## Soma de valores em uma lista
