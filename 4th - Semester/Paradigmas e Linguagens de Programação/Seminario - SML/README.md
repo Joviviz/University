@@ -178,6 +178,35 @@ fun tamanhoLista([]) = 0
   | tamanhoLista(a::y) = 1 + tamanhoLista(y);
 
 tamanhoLista([0,1,2]);
+
+- Reescrevendo a funcao append:
+- Funcao sem padrao
+```sml
+val x = [1,2];
+val z = [3,4,5];
+
+fun append(x,z) = 
+  if null(x) then z
+  else hd(x) :: append(tl(x),z);
+
+append(x,z);
+```
+
+- Funcao com padrao
+```
+val x = [1,2];
+val z = [3,4,5];
+
+fun append([],z) = z
+  if null(x) then z
+  else hd(x) :: append(tl(x),z);
+
+append(x,z);
+```
+
+
+
+
 ## Soma de valores em uma lista
 
 x é o começo da lista e xs o final (x::xs)
