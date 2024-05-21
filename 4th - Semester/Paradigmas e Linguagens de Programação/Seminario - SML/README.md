@@ -45,7 +45,7 @@ val c = a + b;
 ```sml
 fun teste n = n+1;
 (*Chamar a funcao = teste(x) ou teste x *)
-teste(3)
+teste(3);
 ```
 
 ## Funcoes de listas lineares
@@ -274,6 +274,8 @@ fun quadrado x = x * x;
 map maisUm [1,2,3];
 map quadrado [1,2,3];
 ```
+
+
 
 ## Soma de valores em uma lista
 
