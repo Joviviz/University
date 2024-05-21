@@ -172,12 +172,11 @@ tamanhoLista([0,1,2]);
 
 - Podemos reescrever assim: 
 ```sml
-
-```
 fun tamanhoLista([]) = 0
   | tamanhoLista(a::y) = 1 + tamanhoLista(y);
 
 tamanhoLista([0,1,2]);
+```
 
 - Reescrevendo a funcao append:
 - Funcao sem padrao
