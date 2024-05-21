@@ -238,6 +238,9 @@ fun remover(a,[]) = []
   | remover(a,b::y) =
   if a=b then remover(a,y) (*ao chamar "remover" com (a,y) denovo estaremos removendo b*)
   else b::y;
+
+remover(1,[1,1,2,3,1,1]);
+remover("x", ["x","x","y","z","x"]);
 ```
 - Analizando o terminal : 
 -  val remover = fn: ∀ ''a . ''a * ''a list → ''a list;
