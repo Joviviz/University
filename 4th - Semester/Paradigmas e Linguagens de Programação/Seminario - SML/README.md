@@ -245,7 +245,7 @@ remover("x", ["x","x","y","z","x"]);
 - Funcao polimorfica sem especificar a tipagem!!
 
 - Analizando o terminal : 
--  val remover = fn: ∀ ''a . ''a * ''a list → ''a list;
+- val remover = fn: ∀ ''a . ''a * ''a list → ''a list;
   - ∀ (Para todo)
   - ''a (um tipo)
   - ''a list (uma lista de tipos)
