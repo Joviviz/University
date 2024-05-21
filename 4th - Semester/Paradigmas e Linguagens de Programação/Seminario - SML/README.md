@@ -242,6 +242,8 @@ fun remover(a,[]) = []
 remover(1,[1,1,2,3,1,1]);
 remover("x", ["x","x","y","z","x"]);
 ```
+- Funcao polimorfica sem especificar a tipagem!!
+
 - Analizando o terminal : 
 -  val remover = fn: ∀ ''a . ''a * ''a list → ''a list;
   - ∀ (Para todo)
