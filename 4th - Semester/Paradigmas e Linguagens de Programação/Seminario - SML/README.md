@@ -208,6 +208,7 @@ append(x,z);
   - [padrao] e uma expressao que consiste em variaveis, constantes, pares e contructors
   - exemplo: [padrao]: [], a::y, (x,y)
   - fun(x,y) = x (*chama um par de funcao e retorna a primeira parte do par*)
+  - fun(x,_) = x (*como o segundo argumento nao e usado podemos atribuir qualquer nome a ele*)
 
 
 ## Soma de valores em uma lista
