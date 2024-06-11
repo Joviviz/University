@@ -10,9 +10,9 @@ tornou-se necessário desenvolver um sistema de gerenciamento eficiente que poss
 # <ins>Trabalho Final - Requisitos<ins>
 
 ## Cadastro de Alunos:
-- [X] Entrada de Dados: Permitir o cadastro de novos alunos (mutantes) com as seguintes informações: nome, idade, habilidades
+- [] Entrada de Dados: Permitir o cadastro de novos alunos (mutantes) com as seguintes informações: nome, idade, habilidades
 mutantes, nível de poder, equipe (se aplicável) e status de matrícula.
-- [X] Validação de Dados: Garantir que todos os campos obrigatórios sejam preenchidos e validar a consistência dos dados (ex.: idade
+- [] Validação de Dados: Garantir que todos os campos obrigatórios sejam preenchidos e validar a consistência dos dados (ex.: idade
 deve ser um número positivo).
 
 
