@@ -43,3 +43,13 @@ Gerenciamento de Equipes:
 - [ ] Consulta de Equipes: Consultar informações sobre as equipes, incluindo membros, missões atribuídas e resultados obtidos.
 Trabalho Final - Entregáveis
 
+# Trabalho Final - Entregáveis
+1. Código Fonte:
+- O código fonte do sistema, organizado em repositório Git, incluindo todas as dependências necessárias.
+2. Documentação do Sistema:
+- Manual do Usuário: Instruções claras sobre como instalar, configurar e utilizar o sistema.
+- Manual de Instalação: Passos detalhados para a instalação do sistema, incluindo requisitos de sistema e dependências.
+- Diagramas UML: Diagramas de casos de uso, classes e sequência que descrevem a arquitetura e o funcionamento do sistema.
+3. Relatório do Projeto:
+- Um relatório descrevendo o processo de desenvolvimento, desafios enfrentados, soluções implementadas e as lições aprendidas
+durante o desenvolvimento do projeto
