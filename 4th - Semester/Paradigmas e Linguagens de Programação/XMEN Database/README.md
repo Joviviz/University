@@ -45,10 +45,26 @@ Trabalho Final - Entregáveis
 # Trabalho Final - Entregáveis
 1. Código Fonte:
 - O código fonte do sistema, organizado em repositório Git, incluindo todas as dependências necessárias.
+
 2. Documentação do Sistema:
 - Manual do Usuário: Instruções claras sobre como instalar, configurar e utilizar o sistema.
 - Manual de Instalação: Passos detalhados para a instalação do sistema, incluindo requisitos de sistema e dependências.
 - Diagramas UML: Diagramas de casos de uso, classes e sequência que descrevem a arquitetura e o funcionamento do sistema.
+
 3. Relatório do Projeto:
 - Um relatório descrevendo o processo de desenvolvimento, desafios enfrentados, soluções implementadas e as lições aprendidas
 durante o desenvolvimento do projeto
+
+# Trabalho Final – Critérios de Avaliação
+1. Atendimento aos Requisitos Funcionais (80%): Verificação se todas as funcionalidades descritas na especificação estão implementadas e
+funcionando corretamente.
+- Cadastro de Alunos: 10%
+- Consulta de Alunos: 10%
+- Matrícula em Aulas e Treinamentos: 20%
+- Gerenciamento de Missões: 20%
+- Gerenciamento de Equipes: 20%
+
+2. Documentação (20%): Qualidade e completude da documentação entregue.
+- Manual do Usuário: 5%
+- Manual de Instalação: 5%
+- Diagramas UML: 10%
