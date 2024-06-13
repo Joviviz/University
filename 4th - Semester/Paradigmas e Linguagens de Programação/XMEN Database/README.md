@@ -16,8 +16,8 @@ deve ser um número positivo).
 
 
 ## Consulta de Alunos:
-- [ ] Busca por Critérios: Permitir a consulta de alunos pelo nome, habilidades, equipe ou status de matrícula.
-- [ ] Visualização Detalhada: Exibir detalhes dos alunos que correspondem aos critérios de busca, incluindo nome, idade, habilidades
+- [X] Busca por Critérios: Permitir a consulta de alunos pelo nome, habilidades, equipe ou status de matrícula.
+- [X] Visualização Detalhada: Exibir detalhes dos alunos que correspondem aos critérios de busca, incluindo nome, idade, habilidades
 mutantes, nível de poder, e equipe.
 
 
