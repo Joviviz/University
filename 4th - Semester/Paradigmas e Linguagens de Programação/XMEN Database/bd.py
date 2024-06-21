@@ -7,7 +7,7 @@ def criar_bd():
         db = mysql.connector.connect(
         host='localhost',
         user='root',
-        passwd='Vieira.123')
+        passwd='')
 
         mycursor = db.cursor()
 
@@ -117,7 +117,7 @@ def cadastrar_estudante():
         db = mysql.connector.connect(
             host='localhost',
             user='root',
-            passwd='Vieira.123',
+            passwd='',
             database='db_xmen')
     
         mycursor = db.cursor()
@@ -150,7 +150,7 @@ def consulta_de_dados():
         db = mysql.connector.connect(
             host='localhost',
             user='root',
-            passwd='Vieira.123',
+            passwd='',
             database='db_xmen')
 
         mycursor = db.cursor()
