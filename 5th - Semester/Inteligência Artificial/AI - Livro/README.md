@@ -21,6 +21,10 @@ Descreva uma situação em que um algoritmo preditivo pode ser usado em uma tare
 
 Pesquise sobre as principais formas de inferência (indução, dedução, abdução) e apresente suas características.
 
+<h3><ins>Resposta: </ins></h3>
+<p></p>
+
+
 ## Exercício 4
 
 Caracterize cada uma das tarefas a seguir como preditivas ou descritivas:
