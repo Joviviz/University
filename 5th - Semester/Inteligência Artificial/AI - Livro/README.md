@@ -5,13 +5,16 @@
 
 Discuta as semelhanças e diferenças entre aprendizado supervisionado e não supervisionado.
 
-<h3>Resposta: </h3>
+<h3><ins>Resposta: </ins></h3>
 <p>Ambos tipos de aprendizado visam extrair informações e dados para fazer previsões ou inferências com fim de entender esses padrões coletados. O paradigma de aprendizado preditivo tem como objetivo mapear a melhor função para mapear as entradas e saídas, as entradas e saídas são conhecidas, por isso o nome "supervisionado", já no caso do paradigma descritivo, ao invés de predizer um valor, o objetivo é extrair padrões ou agrupamentos dos valores preditivos de um conjunto de dados, explorando sua estrutura, marcante pelas saídas serem desconhecidas.</p>
 
 
 ## Exercício 2
 
 Descreva uma situação em que um algoritmo preditivo pode ser usado em uma tarefa descritiva e uma situação em que um algoritmo descritivo pode ser usado em uma tarefa preditiva.
+
+<h3><ins>Resposta: </ins></h3>
+<p></p>
 
 ## Exercício 3
 
@@ -31,6 +34,9 @@ d. Reconhecimento de pessoas por suas faces;
 
 e. Previsão de cotação de moedas.
 
+<h3><ins>Resposta: </ins></h3>
+<p></p>
+
 ## Exercício 5
 
 Segundo Mitchell (1997), um programa aprende a partir de um conjunto de experiência E, em relação a uma classe de tarefas T, com medida de desempenho P, se seu desempenho em T, medido por P, melhora com E. A partir dessa definição, apresente quais são os conjuntos T, P e E nos seguintes casos:
@@ -46,3 +52,6 @@ d. Dirigir um carro (carro autônomo);
 e. Decidir a que clientes fornecer crédito;
 
 f. Diagnosticar pacientes a partir de seus sintomas.
+
+<h3><ins>Resposta: </ins></h3>
+<p></p>
