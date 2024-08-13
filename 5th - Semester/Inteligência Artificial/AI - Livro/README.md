@@ -14,7 +14,8 @@ Discuta as semelhanças e diferenças entre aprendizado supervisionado e não su
 Descreva uma situação em que um algoritmo preditivo pode ser usado em uma tarefa descritiva e uma situação em que um algoritmo descritivo pode ser usado em uma tarefa preditiva.
 
 <h3><ins>Resposta: </ins></h3>
-<p></p>
+<p>Para um algoritmo preditivo em uma tarefa descritiva seria um que analisa sentimentos em uma rede social, utilizando um modelo supervisionado é possível usar um classificador de sentimentos (Feliz, Neutro, Triste), assim seria possível prever os sentimentos para uma postagem. Esse método seria utilizado de forma descritiva para sumarizar os sentimentos predominantes em um grande número de postagens</p>
+<p>Para um algoritmo descritivo em uma tarefa preditiva seria um que preve a demanda de produtos de uma loja, normalmente seria utilizado um algoritmo preditivo de regressão linear, porém vamos utilizar uma análise de agrupamento para identificar segmentos de produtos e depois usar essas informações para prever a demanda futura com segmentos de grupos semelhantes, identificando padrões de comportamento entre diferentes grupos de produtos</p>
 
 ## Exercício 3
 
