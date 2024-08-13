@@ -5,6 +5,8 @@
 
 Discuta as semelhanças e diferenças entre aprendizado supervisionado e não supervisionado.
 
+<h3>Resposta: </h3>
+<p>Ambos tipos de aprendizado visam extrair informações e dados para fazer previsões ou inferências com fim de entender esses padrões coletados. O paradigma de aprendizado preditivo tem como objetivo mapear a melhor função para mapear as entradas e saídas, as entradas e saídas são conhecidas, por isso o nome "supervisionado", já no caso do paradigma descritivo, ao invés de predizer um valor, o objetivo é extrair padrões ou agrupamentos dos valores preditivos de um conjunto de dados, explorando sua estrutura, marcante pelas saídas serem desconhecidas.</p>
 
 
 ## Exercício 2
