@@ -45,7 +45,15 @@ d. Reconhecimento de pessoas por suas faces;
 e. Previsão de cotação de moedas.
 
 <h3><ins>Resposta: </ins></h3>
-<p></p>
+<p>
+  <ul>
+    <li>a - Preditiva</li>
+    <li>b - Descritiva</li>
+    <li>c - Descritiva</li>
+    <li>d - Preditiva</li>
+    <li>e - Preditiva</li>
+  </ul>
+</p>
 
 ## Exercício 5
 
@@ -64,4 +72,29 @@ e. Decidir a que clientes fornecer crédito;
 f. Diagnosticar pacientes a partir de seus sintomas.
 
 <h3><ins>Resposta: </ins></h3>
-<p></p>
+
+* A
+    * (T) Jogar damas
+    * (P) Porcentagem de partidas ganhas
+    * (E) Jogar contra uma outra versão de si mesmo
+* B
+    * (T) Filtrar mensagens por spam
+    * (P) Porcentagem de emails classificados de forma correta
+    * (E) Agrupamento de conjuntos de mensagens que são classificadas como spam
+* C
+    * (T) Reconhecer escrita manual de dígitos
+    * (P) Porcentagem de digitos escritos de forma correta
+    * (E) Agrupamento de digitos escrito de forma correta visando ser inspirado a eles
+* D
+    * (T) Dirigir um carro
+    * (P) Porcentagem de destinos alcançados
+    * (E) Análise de diferentes atitudes corretas durante o trânsito
+* E
+    * (T) Decidir a que clientes fornecer crédito
+    * (P) Sistema de recompensar a máquina por clientes avaliados de forma correta
+    * (E) Comparar 
+* F
+    * (T) Diagnosticar pacientes a partir de sintomas
+    * (P) Porcentagem de pacientes avaliados corretamente
+    * (E) Observação da relação entre sintomas e doenças pela probabilidade de ter a doença, retirados de um conjunto de pacientes
+
