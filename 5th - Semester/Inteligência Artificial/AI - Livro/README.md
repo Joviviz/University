@@ -1,5 +1,5 @@
 # Exercícios do Livro Faceli, Katti, et al. Inteligência Artificial - Uma Abordagem de Aprendizado de Máquina. Disponível em: Minha Biblioteca, (2nd edição). Grupo GEN, 2021.
-# Exercícios
+# Exercícios - Capítulo 1
 
 ## Exercício 1
 
