@@ -3,6 +3,7 @@ package com.example.imagens;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
     // Views Tela Config
     public Button tela_config_btn_voltar;
 
+    public EditText txt_login;
+    public EditText txt_password;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,11 +39,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.tela_login);
 
         btn_login = findViewById(R.id.btn_login);
+        txt_login = findViewById(R.id.txt_login);
+        txt_password = findViewById(R.id.txt_password);
 
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                carregaTelaPrincipal();
+                if (
+                        txt_login.getText().toString().equals("Jovi") &&
+                        txt_password.getText().toString().equals("123")
+                )
+                    carregaTelaPrincipal();
             }
         });
     }
