@@ -1,0 +1,60 @@
+
+body{
+    background-image: url(https://st.depositphotos.com/1912933/1749/i/950/depositphotos_17491815-stock-photo-old-woman.jpg);
+}
+
+html, body {
+    height: 100vh;
+    font-family: "Comic Sans MS";
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 200px;
+    height: 200px;
+}
+
+table td {
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    padding: .5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+table td, table th {
+    border: 1px solid black;
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child {
+    border-right: 0;
+}
+
+td.winner {
+    color: blue;
+}
