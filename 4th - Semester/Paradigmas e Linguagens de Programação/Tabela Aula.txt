@@ -1,0 +1,42 @@
+ # Tabela Aula
+        """mycursor.execute("""
+                CREATE TABLE IF NOT EXISTS Aula (
+                    ID_aula INT AUTO_INCREMENT PRIMARY KEY,
+                    Nome_Aula VARCHAR(100) NOT NULL,
+                    Instrutor_ID INT,
+                    Horario DATETIME,
+                    Vagas_Disponiveis INT NOT NULL,
+                    FOREIGN KEY (Instrutor_ID) REFERENCES Instrutor(ID)
+                    );""")
+        
+        # Tabela Instrutor
+        mycursor.execute("""
+                CREATE TABLE IF NOT EXISTS Instrutor (
+                    ID INT AUTO_INCREMENT PRIMARY KEY,
+                    Nome_Instrutor VARCHAR(100) NOT NULL,
+                    Especialidade VARCHAR(100)
+                    );""")
+        
+        # Tabela Matricula
+        mycursor.execute("""
+                CREATE TABLE IF NOT EXISTS Matricula (
+                    ID INT AUTO_INCREMENT PRIMARY KEY,
+                    Aluno_ID INT,
+                    Aula_ID INT,
+                    Data_Matricula DATETIME,
+                    FOREIGN KEY (Aluno_ID) REFERENCES Estudante(ID),
+                    FOREIGN KEY (Aula_ID) REFERENCES Aula(ID)
+                    );""")
+        
+        # Tabela Historico de Participacao
+        mycursor.execute("""
+                CREATE TABLE IF NOT EXISTS Historico_Participacao (
+                    ID INT AUTO_INCREMENT PRIMARY KEY,
+                    Aluno_ID INT,
+                    Aula_ID INT,
+                    Data_Participacao DATETIME,
+                    FOREIGN KEY (Aluno_ID) REFERENCES Estudante(ID),
+                    FOREIGN KEY (Aula_ID) REFERENCES Aula(ID)
+                    )""")
+        
+        

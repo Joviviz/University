@@ -1,0 +1,7 @@
+1 - a, the, boy, girl, flower, touches, likes, sees, with
+
+2 - <SENTENCE>, <NOUN-PHRASE>, <VERB-PHRASE>, <PREP-PHRASE>, <CMPLX-NOUN>, <CMPLX-VERB>, <ARTICLE>, <NOUN>, <VERB>, <PREP>
+
+3 - <SENTENCE>
+
+4 - As regras são as relações entre as variáveis com variáveis e variáveis com terminais, são representadas pelas 
