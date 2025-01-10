@@ -1,0 +1,57 @@
+<style>
+  .animate {
+  width: 100px;
+  height: 1000px;
+  background-color: red;
+  position: relative;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+
+.everything{
+  background-color: red;
+  animation: change 5s linear 2s infinite alternate;
+}
+
+@keyframes myfirst {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+@keyframes change {
+  0%   {background-color:red}
+  25%  {background-color:yellow}
+  50%  {background-color:blue}
+  75%  {background-color:green}
+  100% {background-color:red}
+}
+
+
+</style>
+
+<div class="animate text-center w-100">
+  <div class="row">
+    <div class="col-3">
+      <img
+        src="/public/animated/luigi_cowboy.gif"
+        class="img-fluid"
+        alt=""
+      />
+    </div>
+    <div class="col-6">
+      <video controls autoplay>
+        <source src="/public/animated/human.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="col-3">
+      <img
+        src="/public/animated/luigi_cowboy.gif"
+        class="img-fluid"
+        alt=""
+      />
+    </div>
+  </div>
+</div>
