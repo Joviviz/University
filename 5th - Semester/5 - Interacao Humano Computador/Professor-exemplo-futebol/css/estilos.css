@@ -1,0 +1,58 @@
+body {
+  --bege: #d8ccb7;
+  --verde-escuro: rgb(9, 131, 0); /*cria variavel com o nome da cor*/
+  --verde-claro:  #7ec672;
+  font-family: 'Barlow', sans-serif;
+  height: 100px;
+  padding-top: 9rem;
+}
+
+.btn-padrao{
+  background-color: var(--verde-claro);
+  color: rgb(255, 255, 255, 1.0);
+}
+
+.btn-padrao:hover{
+  background-color: var(--verde-escuro);
+  color: rgb(255, 255, 255, 1.0);
+}
+
+
+
+
+
+
+
+
+
+
+
+input[type="checkbox"] {
+  border: 2px solid var(--verde-claro); /*utilizando a cor com a variavel*/
+  box-shadow: none;
+}
+
+input[type="checkbox"]:checked,
+input[type="checkbox"]:focus {
+  background-color: var(--verde-claro);
+  border-color: var(--verde-claro);
+  box-shadow: none;
+  outline: none;
+}
+
+
+
+.icones{
+  font-size: 2rem;
+  color: var(--verde-claro);
+}
+
+[data-bs-theme="dark"]{
+  color:rgba(255, 255, 255, 1.0);
+  .nav-link, .card-body, .accordion, .offcanvas{
+    --bs-nav-link-color:rgba(255, 255, 255, 1.0);
+    --bs-card-color:rgba(255, 255, 255, 1.0);
+    --bs-accordion-color:rgba(255, 255, 255, 1.0);
+    --bs-offcanvas-color:rgba(255, 255, 255, 1.0);
+    }
+}
