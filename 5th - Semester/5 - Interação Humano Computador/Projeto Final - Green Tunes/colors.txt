@@ -1,0 +1,4 @@
+Dark Brown: #724c41
+Soft Brown: #dcb39c
+Brownish red: #472021
+purple : #472021
